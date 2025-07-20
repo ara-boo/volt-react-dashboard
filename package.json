@@ -24,7 +24,12 @@
   },
   "version": "1.0.1",
   "engines": {
-  "node": "16.x"
+  "node": "18.x"
+  },
+  "overrides": {
+    "@babel/core": "7.16.0",
+    "@babel/generator": "7.16.0",
+    "@babel/parser": "7.16.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
